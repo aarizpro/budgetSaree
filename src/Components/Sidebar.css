@@ -1,0 +1,27 @@
+/* Sidebar menu hover styles */
+.custom-link {
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-link:hover {
+    background-color: #08082b; /* Darker gray on hover */
+    color: #ffc107; /* Amber text color on hover */
+    border-radius: 5px; /* Optional: rounded corners on hover */
+  }
+  .marquee {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-15%);
+    }
+}
